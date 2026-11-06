@@ -21,7 +21,7 @@ Bộ bài học Cao cấp 1: 90 ngày, mỗi ngày 5 từ mới, học từ Bài
 | Trung cấp 4 | 206 | 42 | [Mở](https://vinhnd2026.github.io/TrungCap4/) |
 | Cao cấp 1 | 447 | 90 | ⏳ đang hoàn thiện |
 | Cao cấp 2 | 405 | 81 | [Mở](https://vinhnd2026.github.io/CaoCap2/) |
-| Cao cấp 3 | 353 | 71 | ⏳ đang hoàn thiện |
+| Cao cấp 3 | 353 | 71 | [Mở](https://vinhnd2026.github.io/CaoCap3/) |
 | Cao cấp 4 | 357 | 72 | ⏳ đang hoàn thiện |
 
 ## Bổ sung (học sau khi xong 90 ngày)
