@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -679,6 +679,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="鸭肠|也|有意思|我|都|觉得|很|，|喜欢|高兴|，|的|习性|知道|吃|我们|，|猫|很|。"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="说到底，小吃好不好吃，还是要看大家的口味，香喷喷的小吃大家都喜欢。">
+<div><b>Câu 4:</b> Nói cho cùng, đồ ăn vặt ngon hay không, vẫn phải xem khẩu vị của mọi người, đồ ăn vặt thơm phức ai cũng thích.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="要|，|还是|口味|大家|看|不|小吃|，|好吃|小吃|好|大家|说到|。|的|香喷喷|喜欢|都|，|底|的"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1</span></h2>
@@ -824,7 +830,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -855,7 +861,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-33';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (水稻)",
@@ -948,6 +954,10 @@ var ITEM_INFO = {
   "scr-3": [
     "Sắp xếp câu 3",
     "我喜欢吃鸭肠，猫的习性很有意思，我们都知道，也觉得很高兴。"
+  ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "说到底，小吃好不好吃，还是要看大家的口味，香喷喷的小吃大家都喜欢。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",

@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -706,6 +706,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="，|不|他们|我们|什么|嘀嘀咕咕|也|，|他们|不|搭配|在|我|说|知道|要|嘀嘀咕咕|，|要|衣服|。"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="他把房间里的臭豆腐都吃光了，还想再吃。">
+<div><b>Câu 4:</b> Anh ấy ăn hết sạch đậu phụ thối trong phòng, còn muốn ăn nữa.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="里|了|把|的|光|都|。|房间|吃|想|再|吃|还|，|臭豆腐|他"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1</span></h2>
@@ -849,7 +855,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -880,7 +886,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-26';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (自助游)",
@@ -973,6 +979,10 @@ var ITEM_INFO = {
   "scr-3": [
     "Sắp xếp câu 3",
     "他们嘀嘀咕咕，我不知道他们在说什么，我们要搭配衣服，也不要嘀嘀咕咕。"
+  ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "他把房间里的臭豆腐都吃光了，还想再吃。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
