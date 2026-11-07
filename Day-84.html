@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -759,6 +759,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="我们|老古董|会|这个|一个|看|要|这个|东西|破坏|喜欢|我们|，|，|它|环境|。|，|都|环境|很|保护|东西|是"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="没准儿明天快递就到了，妈妈去农贸市场买菜的时候，还能买到新鲜的糕点。">
+<div><b>Câu 4:</b> Có khi ngày mai chuyển phát nhanh sẽ đến, lúc mẹ đi chợ nông sản mua rau, còn có thể mua được bánh ngọt tươi.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="还|的|买|妈妈|准|儿|就|买|糕点|时候|没|快递|新鲜|到|能|到|，|，|了|去|明天|的|。|菜|农贸市场"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1 · Tổng kết tuần</span></h2>
@@ -909,7 +915,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -940,7 +946,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-84';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (广泛)",
@@ -1033,6 +1039,10 @@ var ITEM_INFO = {
   "scr-3": [
     "Sắp xếp câu 3",
     "这个东西会破坏环境，我们要保护环境，这个东西是一个老古董，我们都很喜欢看它。"
+  ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "没准儿明天快递就到了，妈妈去农贸市场买菜的时候，还能买到新鲜的糕点。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",

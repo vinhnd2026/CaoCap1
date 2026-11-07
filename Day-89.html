@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -687,6 +687,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="很|，|种|老师|应用|都|喜欢|很|赠送|东西|，|广泛|东西|喜欢|这|得|。|我们"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="说起来，有机物做出来的东西应用得很好，原料也很重要，大家都在用。">
+<div><b>Câu 4:</b> Nói ra thì, đồ làm từ chất hữu cơ ứng dụng rất tốt, nguyên liệu cũng rất quan trọng, mọi người đều đang dùng.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="东西|重|的|出|，|要|起|很|用|也|大家|来|好|有机物|来|。|得|，|在|原料|做|都|说|，|很|应用"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1</span></h2>
@@ -723,10 +729,10 @@ img, svg { max-width: 100%; }
 <div class="q-item read-q" id="read-2">
 <div class="read-q-head"><span class="read-q-num">2</span><span>老师知道什么？</span></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, true, 'read-2', '✓ Chính xác! 老师喜欢给学生赠送东西，觉得很高兴。')">A. 赠送东西</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师喜欢给学生赠送东西，觉得很高兴。')">B. 什么原料</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师喜欢给学生赠送东西，觉得很高兴。')">C. 应用东西</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师喜欢给学生赠送东西，觉得很高兴。')">D. 学校</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道做糕点要用什么原料，觉得很高兴。')">A. 赠送东西</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'read-2', '✓ Chính xác! 老师知道做糕点要用什么原料，觉得很高兴。')">B. 什么原料</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道做糕点要用什么原料，觉得很高兴。')">C. 应用东西</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道做糕点要用什么原料，觉得很高兴。')">D. 学校</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item read-q" id="read-3">
@@ -832,7 +838,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -853,7 +859,7 @@ img, svg { max-width: 100%; }
 <p><b>Bài 4 (Ngữ pháp):</b> 1. C — 说起来 &nbsp;|&nbsp; 2. B — 说起来，他很喜欢唱歌。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 应用 → 由 → 有机物 → 原料 → 赠送</p>
 <p><b>Bài 6 (Sắp xếp câu):</b><br>1. 这种东西应用得很广泛，由他做，老师去学校，我们都知道。<br>2. 有机物很好，老师觉得很好，老师知道什么原料，觉得很高兴。<br>3. 老师喜欢赠送东西，这种东西应用得很广泛，我们都很喜欢。</p>
-<p><b>Bài 7 (Đọc hiểu):</b> 1. D — 应用东西 &nbsp;|&nbsp; 2. A — 赠送东西 &nbsp;|&nbsp; 3. D — 学校</p>
+<p><b>Bài 7 (Đọc hiểu):</b> 1. D — 应用东西 &nbsp;|&nbsp; 2. B — 什么原料 &nbsp;|&nbsp; 3. D — 学校</p>
 <p><b>Bài 8 (Nghe hội thoại):</b> 1. A — 有机物 &nbsp; 2. B — 有机物 &nbsp; 3. C — 做糕点 &nbsp; 4. D — 去饭店买糕点</p>
 </details>
 </div>
@@ -863,7 +869,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-89';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (物品)",
@@ -957,13 +963,17 @@ var ITEM_INFO = {
     "Sắp xếp câu 3",
     "老师喜欢赠送东西，这种东西应用得很广泛，我们都很喜欢。"
   ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "说起来，有机物做出来的东西应用得很好，原料也很重要，大家都在用。"
+  ],
   "read-1": [
     "Đọc hiểu câu 1",
     "D — 应用东西"
   ],
   "read-2": [
     "Đọc hiểu câu 2",
-    "A — 赠送东西"
+    "B — 什么原料"
   ],
   "read-3": [
     "Đọc hiểu câu 3",

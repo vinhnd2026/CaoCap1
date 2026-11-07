@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -687,6 +687,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="他|，|，|。|以前|知道|说|买|车|老师|，|主动|都|用|不|保险|很|先|我们|给|，|开车|学习"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="他动不动就说自己累，开车的时候也不看前面，朋友的车差点儿追尾了。">
+<div><b>Câu 4:</b> Anh ấy cứ động một tí là nói mình mệt, lúc lái xe cũng không nhìn phía trước, xe của bạn suýt đâm vào đuôi xe phía trước.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="开车|面|他|。|不|动|看|追尾|的|不|自己|就|的|，|说|累|，|差点儿|了|朋友|也|前|动|车|时候"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1 · Tổng kết Bài 7</span></h2>
@@ -862,7 +868,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -893,7 +899,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-61';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (威胁)",
@@ -986,6 +992,10 @@ var ITEM_INFO = {
   "scr-3": [
     "Sắp xếp câu 3",
     "开车以前，先给车买保险，他学习很主动，不用老师说，我们都知道。"
+  ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "他动不动就说自己累，开车的时候也不看前面，朋友的车差点儿追尾了。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",

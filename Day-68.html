@@ -239,7 +239,7 @@ img, svg { max-width: 100%; }
   <div class="progress-bar">
     <span>🎯 Tiến độ:</span>
     <div class="progress-track"><div class="progress-fill" id="prog-fill"></div></div>
-    <b id="prog-text">0 / 32</b>
+    <b id="prog-text">0 / 33</b>
     <button class="btn-sm active" id="ime-toggle-btn" onclick="toggleIME()" title="Bật/tắt chế độ gõ Pinyin trực tiếp">⌨️ Gõ Pinyin: BẬT</button>
     <button class="btn-sm" onclick="resetAll()" title="Xoá tiến độ làm lại">↺</button>
   </div>
@@ -686,6 +686,12 @@ img, svg { max-width: 100%; }
 <div class="word-bank" data-words="知道|一个|我们|要|，|很|，|重|，|要|一个|重|平台|时期|很|。|高兴|是|很|也|要|这|觉得|的"></div>
 <div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
 </div>
+<div class="scramble-box" id="scr-4" data-target="听说明天是重要的时期，他赶紧去平台看评价，想找一个有前途的工作。">
+<div><b>Câu 4:</b> Nghe nói ngày mai là thời kỳ quan trọng, anh ấy vội vàng lên nền tảng xem đánh giá, muốn tìm một công việc có tiền đồ.</div>
+<div class="answer-zone"></div>
+<div class="word-bank" data-words="的|重|紧|明天|平台|工作|去|有|想|赶|他|一个|听说|时期|是|，|。|要|找|看|评价|，|的|前途"></div>
+<div class="input-check"><button class="btn-primary" onclick="checkScramble(this)">Kiểm tra câu</button><button class="btn-sm" onclick="resetScramble(this)">Làm lại</button><span class="feedback"></span></div>
+</div>
 </div>
 <div class="card">
 <h2>📚 Bài 7: Đọc hiểu đoạn văn – Chọn đáp án <span class="badge">Đọc hiểu Cao cấp 1</span></h2>
@@ -829,7 +835,7 @@ img, svg { max-width: 100%; }
 </div>
 <div class="card">
 <h2>📋 Tổng kết để gửi em <span class="badge">Câu cần ôn lại</span></h2>
-<div>Đúng <b id="sum-score">0 / 32</b> mục.</div>
+<div>Đúng <b id="sum-score">0 / 33</b> mục.</div>
 <ul class="summary-list" id="wrong-list"><li>Chưa có câu sai nào — anh làm đến đâu, câu sai sẽ tự gom vào đây.</li></ul>
 <div class="input-check">
 <button class="btn-primary" onclick="copySummary()">📋 Chép kết quả</button>
@@ -860,7 +866,7 @@ img, svg { max-width: 100%; }
 <script>
 // ====== Trạng thái + lưu trữ (localStorage) ======
 var LS_KEY = 'caocap1-Day-68';
-var TOTAL_TASKS = 32;
+var TOTAL_TASKS = 33;
 var ITEM_INFO = {
   "rev-1": [
     "Ôn nhanh 1 (丽人)",
@@ -953,6 +959,10 @@ var ITEM_INFO = {
   "scr-3": [
     "Sắp xếp câu 3",
     "这是一个很重要的时期，一个平台很重要，我们要知道，也觉得很高兴。"
+  ],
+  "scr-4": [
+    "Sắp xếp câu 4",
+    "听说明天是重要的时期，他赶紧去平台看评价，想找一个有前途的工作。"
   ],
   "read-1": [
     "Đọc hiểu câu 1",
