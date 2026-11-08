@@ -25,7 +25,7 @@ Bộ bài học Cao cấp 1: 90 ngày, mỗi ngày 5 từ mới, học từ Bài
 
 ## Bổ sung (học sau khi xong 90 ngày)
 
-- **📖 Ôn tập Ngữ pháp Cao cấp 1 (40 điểm + 33 bài tập + mục Động từ ly hợp):** [Bai-Hoc-On-Ngu-Phap-CaoCap1.html](https://vinhnd2026.github.io/CaoCap1/Bai-Hoc-On-Ngu-Phap-CaoCap1.html) — pinyin hiện sẵn trong mọi ví dụ.
+- **📖 Ôn tập Ngữ pháp Cao cấp 1 (40 điểm + 33 bài tập):** [Bai-Hoc-On-Ngu-Phap-CaoCap1.html](https://vinhnd2026.github.io/CaoCap1/Bai-Hoc-On-Ngu-Phap-CaoCap1.html) — pinyin hiện sẵn trong mọi ví dụ; kèm mục Động từ ly hợp （离合动词） với ví dụ dạng tách cho từng động từ.
 - **📚 Bài Tổng Kết Cao cấp 1:** [Bai-Hoc-Tong-Ket-CaoCap1.html](https://vinhnd2026.github.io/CaoCap1/Bai-Hoc-Tong-Ket-CaoCap1.html) — flashcard toàn bộ từ, bảng từ vựng 10 bài, 8 bài tập tổng kết (62 bài tập), truyện tổng kết dùng đủ toàn bộ từ vựng.
 
 Bấm vào từng ngày bên dưới để mở thẳng trang bài học của ngày đó.
@@ -40,7 +40,7 @@ Bấm vào từng ngày bên dưới để mở thẳng trang bài học của n
 | Day 5 | Bài 1 | 冷漠, 礼节, 漫不经心, 媒体, 秒 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-05.html) |
 | Day 6 | Bài 1 | 气愤, 千万, 清洁, 拳, 软弱 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-06.html) |
 | Day 7 | Bài 1 | 伸, 特色, 无礼, 限于, 谢幕 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-07.html) |
-| Day 8 | Bài 1 | 行李, 以……为宜, 元首, 长辈, 者 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-08.html) |
+| Day 8 | Bài 1 | 行礼, 以……为宜, 元首, 长辈, 者 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-08.html) |
 | Day 9 | Bài 1–2 | 之前, 致谢, 爱心, 宠物, 出差 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-09.html) |
 | Day 10 | Bài 2 | 抵抗力, 方面, 基本, 及时, 集中 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-10.html) |
 | Day 11 | Bài 2 | 加入, 减轻, 仅供参考, 精力, 居住 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-11.html) |
@@ -120,7 +120,7 @@ Bấm vào từng ngày bên dưới để mở thẳng trang bài học của n
 | Day 85 | Bài 10 | 溶解, 生物, 受害者, 熟食, 塑料 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-85.html) |
 | Day 86 | Bài 10 | 碎片, 藤, 提供, 天文, 外卖 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-86.html) |
 | Day 87 | Bài 10 | 为, 伟大, 喂, 污染, 无处不在 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-87.html) |
-| Day 88 | Bài 10 | 物品, 洗涤用品, 消化, 严重, 一次性 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-88.html) |
+| Day 88 | Bài 10 | 物品, 洗漱用品, 消化, 严重, 一次性 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-88.html) |
 | Day 89 | Bài 10 | 应用, 由, 有机物, 原料, 赠送 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-89.html) |
 | Day 90 | Bài 10 | 植物, 制品 | [Mở bài học](https://vinhnd2026.github.io/CaoCap1/Day-90.html) |
 
