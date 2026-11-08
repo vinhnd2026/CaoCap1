@@ -277,7 +277,7 @@ img, svg { max-width: 100%; }
 <button class="btn-sm" onclick="flashNext()">Tiếp ➡</button>
 <button class="btn-sm" onclick="flashReshuffle()">🔀 Trộn lại</button>
 <span class="flash-count" id="flash-count"></span>
-</div></div>
+</div></div><style>#flash-wrap .flash-card{height:216px}#flash-wrap .flash-ex{margin-top:7px;font-size:1.02rem;line-height:2;color:#1e3a8a}#flash-wrap .flash-ex ruby rt{font-size:.52em;color:#2563eb}#flash-wrap .flash-ex-label{font-size:.8rem;font-weight:700;color:#64748b}#flash-wrap .flash-ex-vi{font-size:.86rem;color:#475569}</style>
 <div class="card">
 <h2>1. 即将 — jíjiāng · tức tương <span class="badge">Phó từ</span></h2>
 <div class="word-meaning">Nghĩa: <b>sắp; sắp sửa</b></div>
@@ -653,8 +653,8 @@ img, svg { max-width: 100%; }
 
 <div class="gram-intro">
 <div><b>Công thức:</b> 何止 + N/V + …</div>
-<div>何止…… (đâu chỉ có…) dùng để nhấn mạnh: không chỉ có thế, còn nhiều hơn thế. Sau 何止 là việc thứ nhất, rồi dùng 还 (còn) để nói thêm việc thứ hai, thứ ba. Anh nhớ: 何止 đứng đầu câu hoặc trước danh từ hay động từ, sau đó là ý mở rộng. Lỗi hay gặp là dùng 只 (chỉ) thay cho 何止 — 只 giới hạn lại (chỉ có thế thôi), còn 何止 mở rộng ra (đâu chỉ có thế), hai ý ngược nhau hoàn toàn. So với cấu trúc hỏi tu từ chẳng phải là… sao thì 何止 không hỏi mà khẳng định: đâu chỉ có… rồi liệt kê thêm. Dùng 何止 khi muốn khoe thêm, nhấn mạnh là còn nhiều hơn những gì người nghe tưởng.</div>
-<div class="gram-mistake"><div><b>⚠️ Lỗi thường gặp:</b> <span style="color:#b91c1c">✗ 他只会唱歌，还会跳舞。</span> → <span style="color:#15803d">✓ 他何止会唱歌，还会跳舞。</span></div><div>何止…… nhấn mạnh &#x27;đâu chỉ có…&#x27;, còn nhiều hơn thế; 只…… thì giới hạn lại.</div></div>
+<div>何止…… (đâu chỉ có…) dùng để nhấn mạnh: không chỉ có thế, còn nhiều hơn thế. Sau 何止 là việc thứ nhất, rồi dùng 还 (còn) để nói thêm việc thứ hai, thứ ba. Anh nhớ: 何止 đứng đầu câu hoặc trước danh từ hay động từ, sau đó là ý mở rộng. Lỗi trật tự hay gặp là đặt 何止 sau động từ — 何止 phải đứng trước động từ hay tính từ mà nó nhấn mạnh. Cũng cần phân biệt với 只 (chỉ): 只 giới hạn lại (chỉ có thế thôi), còn 何止 mở rộng ra (đâu chỉ có thế), hai ý ngược nhau hoàn toàn. So với cấu trúc hỏi tu từ chẳng phải là… sao thì 何止 không hỏi mà khẳng định: đâu chỉ có… rồi liệt kê thêm. Dùng 何止 khi muốn khoe thêm, nhấn mạnh là còn nhiều hơn những gì người nghe tưởng.</div>
+<div class="gram-mistake"><div><b>⚠️ Lỗi thường gặp:</b> <span style="color:#b91c1c">✗ 他会何止唱歌，还会跳舞。</span> → <span style="color:#15803d">✓ 他何止会唱歌，还会跳舞。</span></div><div>何止 là phó từ nhấn mạnh, phải đứng TRƯỚC động từ nó nhấn mạnh （何止会唱歌）; đặt sau động từ （会何止唱歌） là sai trật tự.</div></div>
 </div>
 <div class="sub" style="margin-bottom:8px;">Nghe 5 ví dụ rồi làm 2 bài tập dưới đây:</div>
 <div class="gram-ex"><button class="tts-btn" onclick="speakRate('他何止喜欢唱歌，还喜欢跳舞。', 0.88)">🔊</button> <span class="hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>何<rt>hé</rt></ruby><ruby>止<rt>zhǐ</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>唱<rt>chàng</rt></ruby><ruby>歌<rt>gē</rt></ruby>，<ruby>还<rt>hái</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>跳<rt>tiào</rt></ruby><ruby>舞<rt>wǔ</rt></ruby>。</span> <span class="hint">(Anh ấy đâu chỉ thích hát, còn thích nhảy.)</span></div>
@@ -667,14 +667,14 @@ img, svg { max-width: 100%; }
 <div><b>1. 何止…… (đâu chỉ có…):</b></div>
 <div class="mc-options">
 <button class="mc-btn" onclick="checkMC(this, true, 'gram-1', '✓ Đúng! 何止…… nhấn mạnh \'đâu chỉ có…\', còn nhiều hơn thế.')">A. 他何止喜欢唱歌，还喜欢跳舞。</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'gram-1', '✗ Sai: 只…… thì giới hạn lại, không nhấn mạnh như 何止.')">B. 他只喜欢唱歌，还喜欢跳舞。</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'gram-1', '✗ Sai: 何止 phải đứng trước động từ （何止喜欢……), không đặt sau động từ.')">B. 他喜欢何止唱歌，还喜欢跳舞。</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item" id="gram-2">
-<div><b>2. Sửa câu sai sau: 他只喜欢唱歌，还喜欢跳舞。:</b></div>
+<div><b>2. Sửa câu sai sau: 他喜欢何止唱歌，还喜欢跳舞。:</b></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, true, 'gram-2', '✓ Đúng! 何止…… nhấn mạnh &#x27;đâu chỉ có…&#x27;, còn nhiều hơn thế; 只…… thì giới hạn lại.')">A. 他何止喜欢唱歌，还喜欢跳舞。</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'gram-2', '✗ Chưa đúng. 何止…… nhấn mạnh &#x27;đâu chỉ có…&#x27;, còn nhiều hơn thế; 只…… thì giới hạn lại.')">B. 他只喜欢唱歌，还喜欢跳舞。</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'gram-2', '✓ Đúng! 何止 phải đứng trước động từ （何止喜欢……), không đặt sau động từ.')">A. 他何止喜欢唱歌，还喜欢跳舞。</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'gram-2', '✗ Chưa đúng. 何止 phải đứng trước động từ （何止喜欢……), không đặt sau động từ.')">B. 他喜欢何止唱歌，还喜欢跳舞。</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 </div>
@@ -728,10 +728,10 @@ img, svg { max-width: 100%; }
 <div class="reading-zh hide-ruby">
 <section class="read-para">
 <div class="read-para-head"><button class="tts-btn" onclick="playChunked('read', 0.88, 0, 4)">🔊 Nghe đoạn này</button></div>
-<p class="read-para-text"><ruby>节<rt>Jié</rt></ruby><ruby>目<rt>mù</rt></ruby><ruby>即<rt>jí</rt></ruby><ruby>将<rt>jiāng</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>始<rt>shǐ</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。 <ruby>老<rt>Lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>问<rt>wèn</rt></ruby>，<ruby>究<rt>jiū</rt></ruby><ruby>竟<rt>jìng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby>？ <ruby>老<rt>Lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>酷<rt>kù</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby>，<ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。 <ruby>一<rt>Yí</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>重<rt>zhòng</rt></ruby><ruby>要<rt>yào</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby>。 <ruby>立<rt>Lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby>，<ruby>老<rt>lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby>。</p>
+<p class="read-para-text"><ruby>学<rt>Xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>节<rt>jié</rt></ruby><ruby>目<rt>mù</rt></ruby><ruby>即<rt>jí</rt></ruby><ruby>将<rt>jiāng</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>始<rt>shǐ</rt></ruby>，<ruby>大<rt>dà</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。 <ruby>老<rt>Lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby><ruby>带<rt>dài</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>生<rt>shēng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>参<rt>cān</rt></ruby><ruby>观<rt>guān</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby>。 <ruby>他<rt>Tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>候<rt>hou</rt></ruby>，<ruby>过<rt>guò</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>立<rt>lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby>。 <ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>酷<rt>kù</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>大<rt>dà</rt></ruby><ruby>家<rt>jiā</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>累<rt>lèi</rt></ruby>。 <ruby>一<rt>Yí</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>生<rt>shēng</rt></ruby><ruby>问<rt>wèn</rt></ruby>：&quot;<ruby>老<rt>lǎo</rt></ruby><ruby>师<rt>shī</rt></ruby>，<ruby>这<rt>zhè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>究<rt>jiū</rt></ruby><ruby>竟<rt>jìng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fang</rt></ruby>？&quot;</p>
 </section>
 </div>
-<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["节目即将开始，我们都很高兴。", "老师问，究竟是什么？", "老师知道酷热的天气，觉得很高兴。", "一个矿场很重要，我们都知道。", "立交桥很高，老师知道。"];</script>
+<script>window.CHUNK_DATA = window.CHUNK_DATA || {}; window.CHUNK_DATA['read'] = ["学校的节目即将开始，大家都很高兴。", "老师带学生去参观一个矿场。", "他们去矿场的时候，过了一个很高的立交桥。", "今天天气酷热，大家都很累。", "一个学生问：\"老师，这里究竟是什么地方？\""];</script>
 <div class="reading-Controls">
 <button class="tts-btn dlg-play-btn" id="chunk-play-read" onclick="toggleChunkPlay('read')" title="Nghe / Tạm dừng">▶️</button>
 <button class="tts-btn" onclick="restartChunked('read')">↺ Nghe lại từ đầu</button>
@@ -740,40 +740,40 @@ img, svg { max-width: 100%; }
 <button class="btn-sm" onclick="document.querySelector('.reading-zh').classList.toggle('hide-ruby')">🔤 Ẩn/Hiện Pinyin trên chữ</button>
 </div>
 <div class="reading-help" id="read-help">
-<div class="read-para-trans"><p>Chương trình sắp bắt đầu，chúng tôi đều rất vui。 Thầy giáo hỏi，rốt cuộc là gì？ Thầy giáo biết thời tiết nóng gay gắt，cảm thấy rất vui。 Một mỏ khai thác rất quan trọng，chúng tôi đều biết。 Cầu vượt rất cao，thầy giáo biết。</p></div>
+<div class="read-para-trans"><p>Chương trình của trường sắp bắt đầu，mọi người đều rất vui。 Thầy giáo dẫn học sinh đi tham quan một mỏ khai thác。 Khi họ đi đến mỏ，họ đi qua một cây cầu vượt rất cao。 Thời tiết hôm nay nóng gay gắt，mọi người đều rất mệt。 Một học sinh hỏi：&quot;Thưa thầy，ở đây rốt cuộc là nơi nào？&quot;</p></div>
 </div>
 </div>
 <div class="q-item read-q" id="read-1">
-<div class="read-q-head"><span class="read-q-num">1</span><span>老师怎么样？</span></div>
+<div class="read-q-head"><span class="read-q-num">1</span><span>什么即将开始？</span></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 节目即将开始，我们都很高兴。')">A. 很累</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 节目即将开始，我们都很高兴。')">B. 很好</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 节目即将开始，我们都很高兴。')">C. 很忙</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'read-1', '✓ Chính xác! 节目即将开始，我们都很高兴。')">D. 很高兴</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 学校的节目即将开始，大家都很高兴。')">A. 考试</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 学校的节目即将开始，大家都很高兴。')">B. 电影</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-1', '✗ Chưa đúng: 学校的节目即将开始，大家都很高兴。')">C. 旅行</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'read-1', '✓ Chính xác! 学校的节目即将开始，大家都很高兴。')">D. 学校的节目</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item read-q" id="read-2">
-<div class="read-q-head"><span class="read-q-num">2</span><span>老师说了什么？</span></div>
+<div class="read-q-head"><span class="read-q-num">2</span><span>老师带学生去参观什么？</span></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道酷热的天气，觉得很高兴。')">A. 学校</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道酷热的天气，觉得很高兴。')">B. 一个矿场</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师知道酷热的天气，觉得很高兴。')">C. 公司</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'read-2', '✓ Chính xác! 老师知道酷热的天气，觉得很高兴。')">D. 酷热的天气</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师带学生去参观一个矿场。')">A. 饭店</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'read-2', '✓ Chính xác! 老师带学生去参观一个矿场。')">B. 矿场</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师带学生去参观一个矿场。')">C. 学校</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-2', '✗ Chưa đúng: 老师带学生去参观一个矿场。')">D. 公园</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item read-q" id="read-3">
-<div class="read-q-head"><span class="read-q-num">3</span><span>老师知道什么？</span></div>
+<div class="read-q-head"><span class="read-q-num">3</span><span>今天天气怎么样？</span></div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 一个矿场很重要，我们都知道。')">A. 学校</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 一个矿场很重要，我们都知道。')">B. 公司</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'read-3', '✓ Chính xác! 一个矿场很重要，我们都知道。')">C. 一个矿场</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 一个矿场很重要，我们都知道。')">D. 酷热的天气</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 今天天气酷热，大家都很累。')">A. 很冷</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 今天天气酷热，大家都很累。')">B. 下雨</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'read-3', '✗ Chưa đúng: 今天天气酷热，大家都很累。')">C. 下雪</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'read-3', '✓ Chính xác! 今天天气酷热，大家都很累。')">D. 酷热</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 </div>
 <div class="card">
 <h2>🎧 Bài 8: Nghe hội thoại – Suy luận <span class="badge">Nghe hiểu Cao cấp 1</span></h2>
-<div class="sub" style="margin-bottom:8px;">Nghe đoạn hội thoại giữa 小明 và 小红 (14 câu), rồi chọn đáp án đúng cho 4 câu hỏi bên dưới. Lời thoại đang ẩn — hãy nghe trước, chỉ hiện lời thoại khi nghe không rõ. Tình huống: 小明 và 小红 nói chuyện về nắng nóng mùa hè, cầu vượt mới và mỏ bên cạnh.</div>
+<div class="sub" style="margin-bottom:8px;">Nghe đoạn hội thoại giữa 小明 và 小红 (14 câu), rồi chọn đáp án đúng cho 4 câu hỏi bên dưới. Lời thoại đang ẩn — hãy nghe trước, chỉ hiện lời thoại khi nghe không rõ. Tình huống: Trời nắng nóng cực độ; hai bạn nói về cầu vượt mới sắp mở cạnh mỏ và hẹn mai mang nước cho công nhân mỏ.</div>
 <div class="reading-box">
 <div class="reading-Controls dlg-controls-row">
 <span class="hint">Tốc độ:</span>
@@ -788,57 +788,57 @@ img, svg { max-width: 100%; }
 <div class="hint" id="dlg-voice-note" style="margin-top:4px;"></div>
 <div style="margin:8px 0;"><span class="hint">Nghe từng câu:</span> <button class="tts-btn" onclick="playDlgLine(0)">1</button> <button class="tts-btn" onclick="playDlgLine(1)">2</button> <button class="tts-btn" onclick="playDlgLine(2)">3</button> <button class="tts-btn" onclick="playDlgLine(3)">4</button> <button class="tts-btn" onclick="playDlgLine(4)">5</button> <button class="tts-btn" onclick="playDlgLine(5)">6</button> <button class="tts-btn" onclick="playDlgLine(6)">7</button> <button class="tts-btn" onclick="playDlgLine(7)">8</button> <button class="tts-btn" onclick="playDlgLine(8)">9</button> <button class="tts-btn" onclick="playDlgLine(9)">10</button> <button class="tts-btn" onclick="playDlgLine(10)">11</button> <button class="tts-btn" onclick="playDlgLine(11)">12</button> <button class="tts-btn" onclick="playDlgLine(12)">13</button> <button class="tts-btn" onclick="playDlgLine(13)">14</button></div>
 <div class="dlg-script" id="dlg-script" style="display:none">
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>对<rt>duì</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>呢<rt>ne</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Hôm nay rất nóng, đúng không? Bạn thấy sao? Bạn thấy có tốt không? Bạn thấy được không?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>对<rt>Duì</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>是<rt>shì</rt></ruby><ruby>酷<rt>kù</rt></ruby><ruby>热<rt>rè</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。</span><div class="dlg-vi">Đúng, hôm nay rất nóng, là nắng nóng gay gắt. Tôi thấy rất tốt. Tôi thấy rất tốt.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>究<rt>Jiū</rt></ruby><ruby>竟<rt>jìng</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Rốt cuộc tại sao hôm nay rất nóng? Bạn thấy có tốt không? Bạn thấy được không?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>因<rt>Yīn</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>现<rt>xiàn</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>si</rt></ruby>。</span><div class="dlg-vi">Vì bây giờ là mùa hè, mùa hè rất nóng. Tôi thấy rất thú vị.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>夏<rt>Xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>你<rt>nǐ</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>呢<rt>ne</rt></ruby>？</span><div class="dlg-vi">Mùa hè rất nóng, bạn thích mùa hè không? Bạn có thích không? Bạn thấy sao?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>我<rt>Wǒ</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>太<rt>tài</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>了<rt>le</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>题<rt>tí</rt></ruby>。</span><div class="dlg-vi">Tôi không thích mùa hè, mùa hè nóng quá. Tôi thấy không có vấn đề gì.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>你<rt>Nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby>，<ruby>新<rt>xīn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>立<rt>lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>即<rt>jí</rt></ruby><ruby>将<rt>jiāng</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>用<rt>yòng</rt></ruby><ruby>了<rt>le</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。</span><div class="dlg-vi">Bạn xem này, cầu vượt mới sắp có thể dùng được rồi. Tôi rất vui.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>立<rt>Lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>哪<rt>nǎ</rt></ruby><ruby>儿<rt>ér</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>呢<rt>ne</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Cầu vượt ở đâu? Bạn thấy được không? Bạn thấy sao? Bạn thấy có tốt không?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>立<rt>Lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>旁<rt>páng</rt></ruby><ruby>边<rt>bian</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。</span><div class="dlg-vi">Cầu vượt ở bên cạnh mỏ, rất lớn. Tôi thấy rất tốt. Tôi thấy rất tốt.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>矿<rt>Kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>方<rt>fāng</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>呢<rt>ne</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Mỏ là nơi như thế nào? Bạn thấy sao? Bạn thấy có tốt không? Bạn thấy được không?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>矿<rt>Kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>地<rt>de</rt></ruby><ruby>方<rt>fāng</rt></ruby>，<ruby>人<rt>rén</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>si</rt></ruby>。</span><div class="dlg-vi">Mỏ là nơi làm việc, người ta làm việc trong mỏ. Tôi thấy rất thú vị.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>矿<rt>Kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>里<rt>li</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？<ruby>你<rt>nǐ</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Người trong mỏ có nóng không? Bạn thấy có tốt không? Bạn thấy được không?</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>热<rt>Rè</rt></ruby>，<ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>里<rt>li</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>长<rt>cháng</rt></ruby><ruby>时<rt>shí</rt></ruby><ruby>间<rt>jiān</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>也<rt>yě</rt></ruby><ruby>觉<rt>jué</rt></ruby><ruby>得<rt>de</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。</span><div class="dlg-vi">Nóng, người trong mỏ rất nóng, họ làm việc rất lâu. Tôi cũng thấy rất tốt.</div></div>
-<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>好<rt>Hǎo</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby><ruby>了<rt>le</rt></ruby>，<ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>立<rt>lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby>。<ruby>我<rt>wǒ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。</span><div class="dlg-vi">Tốt, tôi biết rồi, mùa hè rất nóng, cầu vượt rất lớn. Tôi rất vui.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>酷<rt>kù</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>呀<rt>ya</rt></ruby>！<ruby>我<rt>Wǒ</rt></ruby><ruby>都<rt>dōu</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>去<rt>qù</rt></ruby>。</span><div class="dlg-vi">Hôm nay là thời tiết nắng nóng cực độ đấy! Tôi chẳng muốn ra ngoài.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>对<rt>Duì</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>也<rt>yě</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>出<rt>chū</rt></ruby><ruby>去<rt>qù</rt></ruby>。<ruby>夏<rt>Xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>怎<rt>zěn</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>热<rt>rè</rt></ruby>？</span><div class="dlg-vi">Đúng, tôi cũng không muốn ra ngoài. Sao mùa hè nóng thế?</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>究<rt>Jiū</rt></ruby><ruby>竟<rt>jìng</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>热<rt>rè</rt></ruby>？<ruby>我<rt>Wǒ</rt></ruby><ruby>也<rt>yě</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>知<rt>zhī</rt></ruby><ruby>道<rt>dào</rt></ruby>。</span><div class="dlg-vi">Rốt cuộc vì sao nóng thế? Tôi cũng không biết.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>可<rt>Kě</rt></ruby><ruby>能<rt>néng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>因<rt>yīn</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>夏<rt>xià</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>到<rt>dào</rt></ruby><ruby>了<rt>le</rt></ruby>。</span><div class="dlg-vi">Có thể vì mùa hè đến rồi.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>你<rt>Nǐ</rt></ruby><ruby>看<rt>kàn</rt></ruby>，<ruby>新<rt>xīn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>立<rt>lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>即<rt>jí</rt></ruby><ruby>将<rt>jiāng</rt></ruby><ruby>可<rt>kě</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>用<rt>yòng</rt></ruby><ruby>了<rt>le</rt></ruby>。</span><div class="dlg-vi">Bạn xem, cầu vượt mới sắp dùng được rồi.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>立<rt>Lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>哪<rt>nǎ</rt></ruby><ruby>儿<rt>ér</rt></ruby>？<ruby>我<rt>Wǒ</rt></ruby><ruby>怎<rt>zěn</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>没<rt>méi</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>见<rt>jiàn</rt></ruby><ruby>啊<rt>a</rt></ruby>！</span><div class="dlg-vi">Cầu vượt ở đâu? Sao tôi không nhìn thấy!</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>在<rt>Zài</rt></ruby><ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>旁<rt>páng</rt></ruby><ruby>边<rt>biān</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>高<rt>gāo</rt></ruby>。</span><div class="dlg-vi">Ở bên cạnh mỏ, rất to, rất cao.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>矿<rt>Kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>什<rt>shén</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby>？</span><div class="dlg-vi">Mỏ là nơi thế nào?</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>矿<rt>Kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fāng</rt></ruby>，<ruby>人<rt>rén</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>儿<rt>ér</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>辛<rt>xīn</rt></ruby><ruby>苦<rt>kǔ</rt></ruby>。</span><div class="dlg-vi">Mỏ là nơi con người làm việc, người làm ở đó rất vất vả.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>这<rt>Zhè</rt></ruby><ruby>么<rt>me</rt></ruby><ruby>热<rt>rè</rt></ruby>，<ruby>矿<rt>kuàng</rt></ruby><ruby>场<rt>chǎng</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>人<rt>rén</rt></ruby><ruby>热<rt>rè</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Nóng thế này, người ở mỏ có nóng không?</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>热<rt>Rè</rt></ruby>。<ruby>他<rt>Tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>工<rt>gōng</rt></ruby><ruby>作<rt>zuò</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>辛<rt>xīn</rt></ruby><ruby>苦<rt>kǔ</rt></ruby>。</span><div class="dlg-vi">Nóng. Họ làm việc rất vất vả.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>他<rt>Tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>真<rt>zhēn</rt></ruby><ruby>辛<rt>xīn</rt></ruby><ruby>苦<rt>kǔ</rt></ruby>。<ruby>我<rt>Wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>给<rt>gěi</rt></ruby><ruby>他<rt>tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>送<rt>sòng</rt></ruby><ruby>水<rt>shuǐ</rt></ruby>，<ruby>好<rt>hǎo</rt></ruby><ruby>吗<rt>ma</rt></ruby>？</span><div class="dlg-vi">Họ vất vả thật. Chúng ta mang nước đến cho họ, được không?</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#2563eb">小明</span> <span class="dlg-zh hide-ruby"><ruby>好<rt>Hǎo</rt></ruby>。<ruby>立<rt>Lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby><ruby>开<rt>kāi</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>后<rt>hòu</rt></ruby>，<ruby>去<rt>qù</rt></ruby><ruby>那<rt>nà</rt></ruby><ruby>儿<rt>ér</rt></ruby><ruby>就<rt>jiù</rt></ruby><ruby>快<rt>kuài</rt></ruby><ruby>了<rt>le</rt></ruby>。</span><div class="dlg-vi">Được. Cầu vượt mở rồi, đến đó sẽ nhanh.</div></div>
+<div class="dlg-line"><span class="dlg-sp" style="background:#db2777">小红</span> <span class="dlg-zh hide-ruby"><ruby>对<rt>Duì</rt></ruby>。<ruby>明<rt>Míng</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>送<rt>sòng</rt></ruby><ruby>水<rt>shuǐ</rt></ruby>，<ruby>也<rt>yě</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>看<rt>kàn</rt></ruby><ruby>新<rt>xīn</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>立<rt>lì</rt></ruby><ruby>交<rt>jiāo</rt></ruby><ruby>桥<rt>qiáo</rt></ruby>。</span><div class="dlg-vi">Đúng. Mai chúng ta đi mang nước, cũng đi xem cầu vượt mới.</div></div>
 </div>
 <div class="hint" id="dlg-tip">💡 Mẹo: nghe 2–3 lần trước khi hiện lời thoại. Chọn giọng cho từng người ở trên — giọng nam cho người nam, giọng nữ cho người nữ, bấm 🔊 Nghe thử để nghe giọng trước khi chọn.</div>
 </div>
 <div class="q-item" id="dlg-1">
-<div><b>Câu 1.</b> 今天热吗？</div>
+<div><b>Câu 1.</b> 今天的天气怎么样？</div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小红：对，今天很热，是酷热。')">A. 下雪</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小红：对，今天很热，是酷热。')">B. 下雨</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小红：对，今天很热，是酷热。')">C. 很冷</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'dlg-1', '✓ Chính xác！小红：对，今天很热，是酷热。')">D. 很热</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小明：今天是酷热的天气呀！我都不想出去。')">A. 下雪</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小明：今天是酷热的天气呀！我都不想出去。')">B. 下雨</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'dlg-1', '✓ Chính xác！小明：今天是酷热的天气呀！我都不想出去。')">C. 是酷热的天气</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-1', '✗ Chưa đúng：小明：今天是酷热的天气呀！我都不想出去。')">D. 很冷</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item" id="dlg-2">
-<div><b>Câu 2.</b> 究竟为什么今天很热？</div>
+<div><b>Câu 2.</b> 立交桥在哪儿？</div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小红：因为现在是夏天，夏天很热。')">A. 因为冬天来了</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'dlg-2', '✓ Chính xác！小红：因为现在是夏天，夏天很热。')">B. 因为现在是夏天</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小红：因为现在是夏天，夏天很热。')">C. 因为天气很冷</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小红：因为现在是夏天，夏天很热。')">D. 因为下雨了</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小明：在矿场旁边，很大，很高。')">A. 公园旁边</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小明：在矿场旁边，很大，很高。')">B. 学校旁边</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-2', '✗ Chưa đúng：小明：在矿场旁边，很大，很高。')">C. 饭店旁边</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'dlg-2', '✓ Chính xác！小明：在矿场旁边，很大，很高。')">D. 矿场旁边</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item" id="dlg-3">
-<div><b>Câu 3.</b> 立交桥在哪儿？</div>
+<div><b>Câu 3.</b> 矿场里的人热吗？</div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, true, 'dlg-3', '✓ Chính xác！小明：立交桥在矿场旁边，很大。')">A. 矿场旁边</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：立交桥在矿场旁边，很大。')">B. 学校旁边</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：立交桥在矿场旁边，很大。')">C. 公园旁边</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：立交桥在矿场旁边，很大。')">D. 饭店旁边</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'dlg-3', '✓ Chính xác！小明：热。他们工作很辛苦。')">A. 很热</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：热。他们工作很辛苦。')">B. 不热</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：热。他们工作很辛苦。')">C. 不知道</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-3', '✗ Chưa đúng：小明：热。他们工作很辛苦。')">D. 很冷</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 <div class="q-item" id="dlg-4">
-<div><b>Câu 4.</b> 矿场里的人热吗？</div>
+<div><b>Câu 4.</b> 他们明天做什么？</div>
 <div class="mc-options">
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小明：热，矿场里的人很热，他们工作很长时间。')">A. 不知道</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小明：热，矿场里的人很热，他们工作很长时间。')">B. 很冷</button>
-<button class="mc-btn" onclick="checkMC(this, true, 'dlg-4', '✓ Chính xác！小明：热，矿场里的人很热，他们工作很长时间。')">C. 很热</button>
-<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小明：热，矿场里的人很热，他们工作很长时间。')">D. 不热</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：他们真辛苦。我们去给他们送水，好吗？')">A. 去工作</button>
+<button class="mc-btn" onclick="checkMC(this, true, 'dlg-4', '✓ Chính xác！小红：他们真辛苦。我们去给他们送水，好吗？')">B. 给矿场的人送水</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：他们真辛苦。我们去给他们送水，好吗？')">C. 去上课</button>
+<button class="mc-btn" onclick="checkMC(this, false, 'dlg-4', '✗ Chưa đúng：小红：他们真辛苦。我们去给他们送水，好吗？')">D. 看电影</button>
 </div>
 <div class="feedback" style="margin-top:6px;"></div></div>
 </div>
@@ -885,8 +885,8 @@ img, svg { max-width: 100%; }
 <p><b>Bài 4 (Ngữ pháp):</b> 1. A — 他何止喜欢唱歌，还喜欢跳舞。 &nbsp;|&nbsp; 2. A — 他何止喜欢唱歌，还喜欢跳舞。</p>
 <p><b>Bài 5 (Đoạn văn):</b> 即将 → 究竟 → 酷热 → 矿场 → 立交桥</p>
 <p><b>Bài 6 (Sắp xếp câu):</b><br>1. 他辞了职，即将去学校学习汉语，你究竟想去什么地方？<br>2. 夏天很热，酷热的天气很难，这个矿场在山里，爸爸妈妈去工作。<br>3. 这个立交桥很长，也很高，他即将去学校学习汉语，我们都知道。<br>4. 来矿场工作的人何止十个，夏天酷热的时候，他们还要走过立交桥。</p>
-<p><b>Bài 7 (Đọc hiểu):</b> 1. D — 很高兴 &nbsp;|&nbsp; 2. D — 酷热的天气 &nbsp;|&nbsp; 3. C — 一个矿场</p>
-<p><b>Bài 8 (Nghe hội thoại):</b> 1. D — 很热 &nbsp; 2. B — 因为现在是夏天 &nbsp; 3. A — 矿场旁边 &nbsp; 4. C — 很热</p>
+<p><b>Bài 7 (Đọc hiểu):</b> 1. D — 学校的节目 &nbsp;|&nbsp; 2. B — 矿场 &nbsp;|&nbsp; 3. D — 酷热</p>
+<p><b>Bài 8 (Nghe hội thoại):</b> 1. C — 是酷热的天气 &nbsp; 2. D — 矿场旁边 &nbsp; 3. A — 很热 &nbsp; 4. B — 给矿场的人送水</p>
 </details>
 </div>
 <div class="footer">Học tốt nhé anh! Làm xong anh chép phần Tổng kết gửi em nhé — câu nào sai em sẽ đưa vào danh sách “Cần ôn thêm”.</div>
@@ -995,31 +995,31 @@ var ITEM_INFO = {
   ],
   "read-1": [
     "Đọc hiểu câu 1",
-    "D — 很高兴"
+    "D — 学校的节目"
   ],
   "read-2": [
     "Đọc hiểu câu 2",
-    "D — 酷热的天气"
+    "B — 矿场"
   ],
   "read-3": [
     "Đọc hiểu câu 3",
-    "C — 一个矿场"
+    "D — 酷热"
   ],
   "dlg-1": [
-    "Nghe hội thoại 1 (今天热吗？)",
-    "很热"
+    "Nghe hội thoại 1 (今天的天气怎么样？)",
+    "是酷热的天气"
   ],
   "dlg-2": [
-    "Nghe hội thoại 2 (究竟为什么今天很热？)",
-    "因为现在是夏天"
-  ],
-  "dlg-3": [
-    "Nghe hội thoại 3 (立交桥在哪儿？)",
+    "Nghe hội thoại 2 (立交桥在哪儿？)",
     "矿场旁边"
   ],
-  "dlg-4": [
-    "Nghe hội thoại 4 (矿场里的人热吗？)",
+  "dlg-3": [
+    "Nghe hội thoại 3 (矿场里的人热吗？)",
     "很热"
+  ],
+  "dlg-4": [
+    "Nghe hội thoại 4 (他们明天做什么？)",
+    "给矿场的人送水"
   ],
   "py-1": [
     "Pinyin: 即将",
@@ -4405,7 +4405,7 @@ restore();
 </script>
 <script>
 // ====== Flashcard ôn tập (mọi từ đã học các ngày trước; chiều thẻ ngẫu nhiên) ======
-var FLASH_DATA = [{"word": "宗教", "pinyin": "zōngjiào", "hanviet": "tông giáo", "meaning": "tôn giáo"}, {"word": "保护区", "pinyin": "bǎohùqū", "hanviet": "bảo hộ khu", "meaning": "khu bảo tồn"}, {"word": "暴雪", "pinyin": "bàoxuě", "hanviet": "bạo tuyết", "meaning": "bão tuyết; tuyết lớn"}, {"word": "北极", "pinyin": "běijí", "hanviet": "bắc cực", "meaning": "Bắc Cực"}, {"word": "本来", "pinyin": "běnlái", "hanviet": "bản lai", "meaning": "vốn dĩ; ban đầu; lẽ ra"}, {"word": "标语", "pinyin": "biāoyǔ", "hanviet": "tiêu ngữ", "meaning": "khẩu hiệu; biểu ngữ"}, {"word": "冰川", "pinyin": "bīngchuān", "hanviet": "băng xuyên", "meaning": "sông băng"}, {"word": "不利", "pinyin": "búlì", "hanviet": "bất lợi", "meaning": "bất lợi; không có lợi"}, {"word": "橙色", "pinyin": "chéngsè", "hanviet": "chanh sắc", "meaning": "màu cam"}, {"word": "持续", "pinyin": "chíxù", "hanviet": "trì tục", "meaning": "tiếp tục; kéo dài"}, {"word": "存在", "pinyin": "cúnzài", "hanviet": "tồn tại", "meaning": "tồn tại; có"}, {"word": "当前", "pinyin": "dāngqián", "hanviet": "đương tiền", "meaning": "hiện nay; lúc này"}, {"word": "范围", "pinyin": "fànwéi", "hanviet": "phạm vi", "meaning": "phạm vi; giới hạn"}, {"word": "封闭", "pinyin": "fēngbì", "hanviet": "phong bế", "meaning": "đóng kín; phong tỏa"}, {"word": "改善", "pinyin": "gǎishàn", "hanviet": "cải thiện", "meaning": "cải thiện; làm tốt hơn"}, {"word": "构成", "pinyin": "gòuchéng", "hanviet": "cấu thành", "meaning": "cấu thành; tạo thành"}, {"word": "观测站", "pinyin": "guāncèzhàn", "hanviet": "quan trắc trạm", "meaning": "trạm quan trắc"}, {"word": "过程", "pinyin": "guòchéng", "hanviet": "quá trình", "meaning": "quá trình"}, {"word": "混乱", "pinyin": "hùnluàn", "hanviet": "hỗn loạn", "meaning": "hỗn loạn; lộn xộn"}, {"word": "积雪", "pinyin": "jīxuě", "hanviet": "tích tuyết", "meaning": "tuyết đọng; tuyết tích tụ"}];
+var FLASH_DATA = [{"word": "宗教", "pinyin": "zōngjiào", "hanviet": "tông giáo", "meaning": "tôn giáo", "exr": "<ruby>中<rt>Zhōng</rt></ruby><ruby>国<rt>guó</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>宗<rt>zōng</rt></ruby><ruby>教<rt>jiào</rt></ruby>。", "exv": "Trung Quốc có rất nhiều tôn giáo."}, {"word": "保护区", "pinyin": "bǎohùqū", "hanviet": "bảo hộ khu", "meaning": "khu bảo tồn", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>是<rt>shì</rt></ruby><ruby>一<rt>yí</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>保<rt>bǎo</rt></ruby><ruby>护<rt>hù</rt></ruby><ruby>区<rt>qū</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>动<rt>dòng</rt></ruby><ruby>物<rt>wù</rt></ruby>。", "exv": "Đây là một khu bảo tồn, có rất nhiều động vật."}, {"word": "暴雪", "pinyin": "bàoxuě", "hanviet": "bạo tuyết", "meaning": "bão tuyết; tuyết lớn", "exr": "<ruby>今<rt>Jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>暴<rt>bào</rt></ruby><ruby>雪<rt>xuě</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>冷<rt>lěng</rt></ruby>，<ruby>不<rt>bù</rt></ruby><ruby>能<rt>néng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。", "exv": "Hôm nay có bão tuyết, rất lạnh, không thể đến trường."}, {"word": "北极", "pinyin": "běijí", "hanviet": "bắc cực", "meaning": "Bắc Cực", "exr": "<ruby>北<rt>Běi</rt></ruby><ruby>极<rt>jí</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>雪<rt>xuě</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>冷<rt>lěng</rt></ruby>。", "exv": "Bắc Cực có rất nhiều tuyết, rất lạnh."}, {"word": "本来", "pinyin": "běnlái", "hanviet": "bản lai", "meaning": "vốn dĩ; ban đầu; lẽ ra", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>本<rt>běn</rt></ruby><ruby>来<rt>lái</rt></ruby><ruby>想<rt>xiǎng</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>，<ruby>今<rt>jīn</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>去<rt>qù</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Tôi vốn định đến trường, hôm nay không đi nữa."}, {"word": "标语", "pinyin": "biāoyǔ", "hanviet": "tiêu ngữ", "meaning": "khẩu hiệu; biểu ngữ", "exr": "<ruby>学<rt>Xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>标<rt>biāo</rt></ruby><ruby>语<rt>yǔ</rt></ruby>。", "exv": "Trong trường có rất nhiều khẩu hiệu."}, {"word": "冰川", "pinyin": "bīngchuān", "hanviet": "băng xuyên", "meaning": "sông băng", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>冰<rt>bīng</rt></ruby><ruby>川<rt>chuān</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>看<rt>kàn</rt></ruby>。", "exv": "Ở đây có rất nhiều sông băng, rất đẹp."}, {"word": "不利", "pinyin": "búlì", "hanviet": "bất lợi", "meaning": "bất lợi; không có lợi", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>对<rt>duì</rt></ruby><ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>不<rt>bú</rt></ruby><ruby>利<rt>lì</rt></ruby>，<ruby>我<rt>wǒ</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>不<rt>bù</rt></ruby><ruby>高<rt>gāo</rt></ruby><ruby>兴<rt>xìng</rt></ruby>。", "exv": "Điều này bất lợi cho chúng tôi, chúng tôi không vui."}, {"word": "橙色", "pinyin": "chéngsè", "hanviet": "chanh sắc", "meaning": "màu cam", "exr": "<ruby>我<rt>Wǒ</rt></ruby><ruby>喜<rt>xǐ</rt></ruby><ruby>欢<rt>huan</rt></ruby><ruby>橙<rt>chéng</rt></ruby><ruby>色<rt>sè</rt></ruby>，<ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby><ruby>看<rt>kàn</rt></ruby>。", "exv": "Tôi thích màu cam, rất đẹp."}, {"word": "持续", "pinyin": "chíxù", "hanviet": "trì tục", "meaning": "tiếp tục; kéo dài", "exr": "<ruby>他<rt>Tā</rt></ruby><ruby>持<rt>chí</rt></ruby><ruby>续<rt>xù</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>习<rt>xí</rt></ruby><ruby>了<rt>le</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>久<rt>jiǔ</rt></ruby>。", "exv": "Anh ấy học liên tục rất lâu."}, {"word": "存在", "pinyin": "cúnzài", "hanviet": "tồn tại", "meaning": "tồn tại; có", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>存<rt>cún</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>问<rt>wèn</rt></ruby><ruby>题<rt>tí</rt></ruby>。", "exv": "Ở đây tồn tại rất nhiều vấn đề."}, {"word": "当前", "pinyin": "dāngqián", "hanviet": "đương tiền", "meaning": "hiện nay; lúc này", "exr": "<ruby>当<rt>Dāng</rt></ruby><ruby>前<rt>qián</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>冷<rt>lěng</rt></ruby>。", "exv": "Thời tiết hiện nay rất lạnh."}, {"word": "范围", "pinyin": "fànwéi", "hanviet": "phạm vi", "meaning": "phạm vi; giới hạn", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>范<rt>fàn</rt></ruby><ruby>围<rt>wéi</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>大<rt>dà</rt></ruby>，<ruby>有<rt>yǒu</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>多<rt>duō</rt></ruby><ruby>东<rt>dōng</rt></ruby><ruby>西<rt>xi</rt></ruby>。", "exv": "Phạm vi này rất lớn, có rất nhiều thứ."}, {"word": "封闭", "pinyin": "fēngbì", "hanviet": "phong bế", "meaning": "đóng kín; phong tỏa", "exr": "<ruby>因<rt>Yīn</rt></ruby><ruby>为<rt>wèi</rt></ruby><ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>冷<rt>lěng</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fang</rt></ruby><ruby>封<rt>fēng</rt></ruby><ruby>闭<rt>bì</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Vì trời lạnh, họ đã phong tỏa nơi này."}, {"word": "改善", "pinyin": "gǎishàn", "hanviet": "cải thiện", "meaning": "cải thiện; làm tốt hơn", "exr": "<ruby>今<rt>Jīn</rt></ruby><ruby>年<rt>nián</rt></ruby>，<ruby>他<rt>tā</rt></ruby><ruby>们<rt>men</rt></ruby><ruby>把<rt>bǎ</rt></ruby><ruby>生<rt>shēng</rt></ruby><ruby>活<rt>huó</rt></ruby><ruby>改<rt>gǎi</rt></ruby><ruby>善<rt>shàn</rt></ruby><ruby>了<rt>le</rt></ruby>。", "exv": "Năm nay, họ đã cải thiện cuộc sống."}, {"word": "构成", "pinyin": "gòuchéng", "hanviet": "cấu thành", "meaning": "cấu thành; tạo thành", "exr": "<ruby>三<rt>Sān</rt></ruby><ruby>个<rt>gè</rt></ruby><ruby>地<rt>dì</rt></ruby><ruby>方<rt>fang</rt></ruby><ruby>构<rt>gòu</rt></ruby><ruby>成<rt>chéng</rt></ruby><ruby>这<rt>zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby>。", "exv": "Ba nơi tạo thành ngôi trường này."}, {"word": "观测站", "pinyin": "guāncèzhàn", "hanviet": "quan trắc trạm", "meaning": "trạm quan trắc", "exr": "<ruby>这<rt>Zhè</rt></ruby><ruby>个<rt>ge</rt></ruby><ruby>观<rt>guān</rt></ruby><ruby>测<rt>cè</rt></ruby><ruby>站<rt>zhàn</rt></ruby><ruby>在<rt>zài</rt></ruby><ruby>山<rt>shān</rt></ruby><ruby>里<rt>lǐ</rt></ruby>，<ruby>天<rt>tiān</rt></ruby><ruby>气<rt>qì</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>好<rt>hǎo</rt></ruby>。", "exv": "Trạm quan trắc này ở trong núi, thời tiết rất tốt."}, {"word": "过程", "pinyin": "guòchéng", "hanviet": "quá trình", "meaning": "quá trình", "exr": "<ruby>学<rt>Xué</rt></ruby><ruby>习<rt>xí</rt></ruby><ruby>汉<rt>hàn</rt></ruby><ruby>语<rt>yǔ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>过<rt>guò</rt></ruby><ruby>程<rt>chéng</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>长<rt>cháng</rt></ruby>，<ruby>也<rt>yě</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>有<rt>yǒu</rt></ruby><ruby>意<rt>yì</rt></ruby><ruby>思<rt>si</rt></ruby>。", "exv": "Quá trình học tiếng Trung rất dài, cũng rất thú vị."}, {"word": "混乱", "pinyin": "hùnluàn", "hanviet": "hỗn loạn", "meaning": "hỗn loạn; lộn xộn", "exr": "<ruby>下<rt>Xià</rt></ruby><ruby>课<rt>kè</rt></ruby><ruby>以<rt>yǐ</rt></ruby><ruby>后<rt>hòu</rt></ruby>，<ruby>学<rt>xué</rt></ruby><ruby>校<rt>xiào</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>混<rt>hùn</rt></ruby><ruby>乱<rt>luàn</rt></ruby>。", "exv": "Sau giờ tan học, trong trường rất hỗn loạn."}, {"word": "积雪", "pinyin": "jīxuě", "hanviet": "tích tuyết", "meaning": "tuyết đọng; tuyết tích tụ", "exr": "<ruby>冬<rt>Dōng</rt></ruby><ruby>天<rt>tiān</rt></ruby>，<ruby>山<rt>shān</rt></ruby><ruby>里<rt>lǐ</rt></ruby><ruby>的<rt>de</rt></ruby><ruby>积<rt>jī</rt></ruby><ruby>雪<rt>xuě</rt></ruby><ruby>很<rt>hěn</rt></ruby><ruby>冷<rt>lěng</rt></ruby>。", "exv": "Mùa đông, tuyết đọng trong núi rất lạnh."}];
 var flashDeck = [], flashIdx = 0;
 function flashShuffleDeck() {
   flashDeck = FLASH_DATA.map(function (w) { return { w: w, hanziFront: Math.random() < 0.5 }; });
@@ -4419,11 +4419,11 @@ function flashRender() {
   var cur = flashDeck[flashIdx], w = cur.w;
   var front = document.getElementById('flash-front'), back = document.getElementById('flash-back');
   if (cur.hanziFront) {
-    front.innerHTML = '<div class="flash-tag">Chữ Hán</div><div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">Chạm giữa để lật · góc trái/phải để chuyển thẻ</div>';
-    back.innerHTML = '<div class="flash-tag">Nghĩa</div><div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>';
+    front.innerHTML = '<div class="flash-hanzi">' + w.word + '</div>';
+    back.innerHTML = '<div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>' + (w.exr ? '<div class="flash-ex"><span class="flash-ex-label">Ví dụ: </span>' + w.exr + '</div><div class="flash-ex-vi">' + w.exv + '</div>' : '');
   } else {
-    front.innerHTML = '<div class="flash-tag">Nghĩa tiếng Việt</div><div class="flash-meaning">' + w.meaning + '</div><div class="flash-sub">Chạm giữa để lật · góc trái/phải để chuyển thẻ</div>';
-    back.innerHTML = '<div class="flash-tag">Chữ Hán</div><div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>';
+    front.innerHTML = '<div class="flash-meaning">' + w.meaning + '</div>';
+    back.innerHTML = '<div class="flash-hanzi">' + w.word + '</div><div class="flash-sub">' + w.pinyin + ' · Hán Việt: ' + w.hanviet + '</div>' + (w.exr ? '<div class="flash-ex"><span class="flash-ex-label">Ví dụ: </span>' + w.exr + '</div><div class="flash-ex-vi">' + w.exv + '</div>' : '');
   }
   document.getElementById('flash-card').classList.remove('flipped');
   document.getElementById('flash-count').textContent = 'Thẻ ' + (flashIdx + 1) + ' / ' + flashDeck.length;
@@ -4448,7 +4448,7 @@ flashShuffleDeck(); flashRender();
 <script>
 // ====== Bài 8: Nghe hội thoại ======
 var DLG_SPEAKERS = [{"id": "ming", "name": "小明", "py": "Xiǎo Míng", "gender": "nam", "vi": "Minh", "color": "#2563eb"}, {"id": "hong", "name": "小红", "py": "Xiǎo Hóng", "gender": "nữ", "vi": "Hồng", "color": "#db2777"}];
-var DLG_LINES = [{"sp": "ming", "zh": "今天很热，对吗？你觉得呢？你觉得好吗？你觉得可以吗？"}, {"sp": "hong", "zh": "对，今天很热，是酷热。我觉得很好。我觉得很好。"}, {"sp": "ming", "zh": "究竟为什么今天很热？你觉得好吗？你觉得可以吗？"}, {"sp": "hong", "zh": "因为现在是夏天，夏天很热。我觉得很有意思。"}, {"sp": "ming", "zh": "夏天很热，你喜欢夏天吗？你喜欢吗？你觉得呢？"}, {"sp": "hong", "zh": "我不喜欢夏天，夏天太热了。我觉得没问题。"}, {"sp": "ming", "zh": "你看，新的立交桥即将可以用了。我很高兴。"}, {"sp": "hong", "zh": "立交桥在哪儿？你觉得可以吗？你觉得呢？你觉得好吗？"}, {"sp": "ming", "zh": "立交桥在矿场旁边，很大。我觉得很好。我觉得很好。"}, {"sp": "hong", "zh": "矿场是什么地方？你觉得呢？你觉得好吗？你觉得可以吗？"}, {"sp": "ming", "zh": "矿场是工作的地方，人在矿场工作。我觉得很有意思。"}, {"sp": "hong", "zh": "矿场里的人热吗？你觉得好吗？你觉得可以吗？"}, {"sp": "ming", "zh": "热，矿场里的人很热，他们工作很长时间。我也觉得很好。"}, {"sp": "hong", "zh": "好，我知道了，夏天很热，立交桥很大。我很高兴。"}];
+var DLG_LINES = [{"sp": "ming", "zh": "今天是酷热的天气呀！我都不想出去。"}, {"sp": "hong", "zh": "对，我也不想出去。夏天怎么这么热？"}, {"sp": "ming", "zh": "究竟为什么这么热？我也不知道。"}, {"sp": "hong", "zh": "可能是因为夏天到了。"}, {"sp": "ming", "zh": "你看，新的立交桥即将可以用了。"}, {"sp": "hong", "zh": "立交桥在哪儿？我怎么没看见啊！"}, {"sp": "ming", "zh": "在矿场旁边，很大，很高。"}, {"sp": "hong", "zh": "矿场是什么地方？"}, {"sp": "ming", "zh": "矿场是人工作的地方，人在那儿工作很辛苦。"}, {"sp": "hong", "zh": "这么热，矿场的人热吗？"}, {"sp": "ming", "zh": "热。他们工作很辛苦。"}, {"sp": "hong", "zh": "他们真辛苦。我们去给他们送水，好吗？"}, {"sp": "ming", "zh": "好。立交桥开了以后，去那儿就快了。"}, {"sp": "hong", "zh": "对。明天我们去送水，也去看看新的立交桥。"}];
 var dlgPlaying = false;
 var dlgPaused = false;
 var dlgRate = 0.88;
